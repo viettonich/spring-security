@@ -46,8 +46,8 @@ public class LoginController {
 
 	@GetMapping("/random1")
 	public String randomStuff() {
-		throw new CustomException("12313", HttpStatus.CONFLICT);
-		///return "JWT Hợp lệ mới có thể thấy được message này";
+		//throw new CustomException("12313", HttpStatus.CONFLICT);
+		return "JWT Hợp lệ mới có thể thấy được message này";
 	}
 
 }
