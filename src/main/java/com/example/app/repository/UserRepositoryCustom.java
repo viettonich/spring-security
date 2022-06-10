@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import com.example.app.entity.User;
 
 @Repository
-public interface CustomUserRepository {
+public interface UserRepositoryCustom {
     public void insert(List<User> userList);
 
     public User insert(User user);
