@@ -76,7 +76,7 @@ public class SpringSecurityApplication implements CommandLineRunner {
         //productRepository.getProductListByCategoryId((long) 1).forEach(p -> System.out.println(p.getProductName()));
         
         //categoryRepository.getListCategory().get(0).getProductList().forEach(p -> System.out.println(p.getName()));
-
+        // 111
     }
 
 }
